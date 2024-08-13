@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "paths": {
+      "@/*" : ["./src/*"],
+      "@root/*" : ["./src/root/*"],
+      "@ui/*" : ["./src/ui/*"],
+      "@lib/*" : ["./src/lib/*"],
+      "@hooks/*" : ["./src/hooks/*"],
+      "@utils/*" : ["./src/utils/*"]
+    }
+  },
+  "files": [],
+  "references": [
+    { "path": "./tsconfig.app.json" },
+    { "path": "./tsconfig.node.json" }
+  ],
+  "include": ["src"]
+}
